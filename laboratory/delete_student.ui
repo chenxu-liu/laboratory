@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>delete_student</class>
+ <widget class="QMainWindow" name="delete_student">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>489</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>删除学生页面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:sans-serif;
+}
+#centralwidget{   
+border-image:url(:/image/7.jpg);
+}
+QFrame{
+background:rgba(0,0,0,0);
+border-radius:15px;
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+color:#fff;
+background:transparent;
+font-size:30px;
+}
+QComboBox{
+	background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>100</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>学号：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>100</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>190</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

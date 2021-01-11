@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>choose_lab</class>
+ <widget class="QMainWindow" name="choose_lab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>609</width>
+    <height>406</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>选择实验室页面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:sans-serif;
+}
+#centralwidget{   
+border-image:url(:/image/7.jpg);
+}
+QFrame{
+background:rgba(0,0,0,0);
+border-radius:15px;
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+color:#fff;
+background:transparent;
+font-size:30px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>160</y>
+      <width>611</width>
+      <height>151</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>150</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>所选实验室:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>60</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>609</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

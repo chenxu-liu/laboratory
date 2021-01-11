@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_student</class>
+ <widget class="QMainWindow" name="add_student">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>542</width>
+    <height>388</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:sans-serif;
+}
+#centralwidget{   
+border-image:url(:/image/7.jpg);
+}
+QFrame{
+background:rgba(0,0,0,0);
+border-radius:15px;
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+color:#fff;
+background:transparent;
+font-size:30px;
+}
+QComboBox{
+	background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>140</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>学号：</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

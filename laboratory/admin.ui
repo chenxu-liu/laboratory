@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QMainWindow" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理员页面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:sans-serif;
+}
+#centralwidget{   
+border-image:url(:/image/7.jpg);
+}
+QFrame{
+background:rgba(0,0,0,0);
+border-radius:15px;
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+color:#fff;
+background:transparent;
+font-size:30px;
+}
+QComboBox{
+	background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>180</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>管理教师</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>80</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>管理学生</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

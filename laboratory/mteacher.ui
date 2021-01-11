@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mteacher</class>
+ <widget class="QMainWindow" name="mteacher">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>614</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>管理教师页面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:sans-serif;
+}
+#centralwidget{   
+border-image:url(:/image/7.jpg);
+}
+QFrame{
+background:rgba(0,0,0,0);
+border-radius:15px;
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+color:#fff;
+background:transparent;
+font-size:30px;
+}
+QComboBox{
+	background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QRadioButton" name="radioButton_add">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>100</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>添加</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_change">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>140</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>修改</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_delete">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>170</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>删除</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>122</x>
+      <y>327</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>330</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>退出</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>118</x>
+      <y>8</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>教师号：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>姓 名：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>性 别：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>90</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>130</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>年 龄：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>130</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>170</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>电 话：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>170</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>210</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>实验室：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>210</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>260</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>密 码：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>260</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>radioButton_add</zorder>
+   <zorder>radioButton_change</zorder>
+   <zorder>radioButton_delete</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>label</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>lineEdit_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>lineEdit_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>lineEdit_7</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

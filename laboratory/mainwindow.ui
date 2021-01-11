@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>登录页面</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font-size:24px;
+font-family:sans-serif;
+}
+#centralWidget{   
+border-image:url(:/image/7.jpg);
+}
+QFrame{
+background:rgba(0,0,0,0.6);
+border-radius:15px;
+}
+QPushButton{
+background:#03a9f4;
+color:#fff;
+border-radius:15px;
+}
+QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}
+QLabel{
+color:#fff;
+background:transparent;
+font-size:30px;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>631</width>
+      <height>351</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>90</y>
+       <width>120</width>
+       <height>69</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>用户名：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>110</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#QLineEdit{
+border-radius:15px;
+color:#03a9f4;
+}</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>160</y>
+       <width>120</width>
+       <height>69</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>密  码：</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>180</y>
+       <width>341</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_student_login">
+     <property name="geometry">
+      <rect>
+       <x>65</x>
+       <y>263</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>学生登录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_techer_login">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>260</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>教师登录</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_admin_login">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>260</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>管理员登录</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>14</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>实验室管理系统</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
